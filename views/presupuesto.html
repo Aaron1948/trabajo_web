@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metas y titulo -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VintageGames</title>
+    <meta name="robots" content="index,nofollow">
+    <meta name="Author" content="Aaron Chaves Alfonso">
+    <meta name="description" content="Pagina web sobre videojuegos antiguos, historia del videojuego">
+    <meta name="keywords" content="vintage, videojuegos, juegos antiguos">
+    <meta name="revisit-after" content="3 days">
+    <meta name="category" content="Juegos Vintage, juegos antiguos">
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Icono de la pagina (favicon)-->
+    <link rel="icon" type="image/png" href="../favicon.ico">
+
+</head>
+<body>
+    <!-- Barra de Navegacion --> 
+        <nav class="navigationBar">
+            <!-- Logo de la pagina -->
+            <img src="../assets/images/logo2.png" class="logo" width="300" height="120" alt="logo de la pagina">
+            <h1>Vintage Games</h1>
+            <ul class="navigationBarList">
+                <li>
+                    <a href="../index.html" class="enlace">Inicio</a>
+                </li>
+                <li>
+                    <a href="productos.html" class="enlace">Galeria</a>
+                </li>
+                <li>
+                    <a href="contacto.html" class="enlace">Contacto</a>
+                </li>
+                <li>
+                    <a href="#" class="enlace active">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- MAIN (FORMULARIO)-->
+        <div class="contenedor_form">
+            <form id="myForm" name="myForm" action="#" method="post" target="_self">
+                <ul class="lista_externa">
+                    <li>
+                        <label for="first-name">Nombre:</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Escriba su nombre"
+                        pattern="[A-Z a-z]{3,15}" title="Escriba solo letras entre 3 y 15 caracteres"
+                        required>
+                    </li>
+                    <li>
+                        <label for="surname">Apellidos:</label>
+                        <input type="text" id="surname" name="surname" placeholder="Escriba sus apellidos"
+                        pattern="[A-Z a-z]{4,40}" title="Escriba solo letras entre 4 y 40 caracteres"
+                        required>
+                    </li>
+                    <li>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Escriba su correo electronico"
+                        pattern="[a-zA-Z0-9_-.]+@[a-z0-9._-]+\.[a-z]{2,4}" title="Escriba su correo electronico"
+                        required>
+                    </li>
+                    <li>
+                        <label for="telephone">Telefono:</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="Escriba su telefono"
+                        pattern="[0-9{9}]" title="Escriba los 9 numeros de su telefono movil"
+                        required>
+                    </li>
+                    <li>
+                        <label for="informacion">Solicite mas informacion</label>
+                        <textarea rows="6" id="informacion" placeholder="Escriba aqui su mensaje"
+                        required></textarea>
+                    </li>
+                    
+                    <li>
+                        <p class="p_privacidad">Acepto la politica de privacidad</p>
+                        <input type="checkbox" required>
+                    </li>
+                    <li class="buttons">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </li>
+                </ul>
+            </form>
+        </div>
+      
+    <!-- Pie de Pagina -->
+
+    <div class="footer">
+        <footer>
+            <p class="foot"><span class="italic">::::VintageGames::::</span><p class="foot"><a href="https://twitter.com/VintageGames">Twitter.com/VintageGames</a></p>
+            <p class="foot"><a href="https://facebook.com/VintageGames">Facebook.com/VintageGames</a></p><span class="italic">::::Por Aaron Chaves Alfonso::::</span>
+        </footer>
+    </div>
+</body>
+</html>

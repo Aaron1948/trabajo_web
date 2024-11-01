@@ -1,0 +1,400 @@
+/********************************* CUERPO Y HTML ***************************************************/
+
+html,body{
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+    /*background-color: rgb(195, 217, 236);*/
+}
+
+/*********************************FUENTES*************************************************************/
+
+@font-face{
+    font-family: 'Danfo Regular';
+    src: url(/fonts/Danfo-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'jersey';
+    src: url(/fonts/Jersey15-Regular.ttf);
+}
+
+/********************************* BARRA DE NAVEGACION **********************************************/
+
+.navigationBar{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, rgb(231, 248, 246), rgb(91, 179, 230));
+    text-shadow: 5px 5px rgb(231, 248, 246);
+    font-family: jersey;
+
+}
+
+.navigationBarList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.navigationBar img{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    color: rgb(233, 9, 9);
+}
+
+.enlace:hover{
+    color: rgb(5, 9, 250);
+}
+
+
+
+/******************************* H1 , PARRAFOS y LOGO  ********************************************/
+
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Danfo Regular";
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-right: -190px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: jersey;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 30px;
+    font-family: jersey;
+    text-align: center;
+    word-spacing: 100px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.7rem;
+    font-family: jersey;
+    padding: 20px;
+    text-indent: 40px;
+}
+.foot{
+    font-size: 20px;
+    font-family: jersey;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.fin_pagina{
+    text-align: center;
+    font-size: 20px;
+}
+
+.italic{
+    text-transform: uppercase;
+    font-family: jersey;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: 200;
+    display: inline;
+}
+
+.foot_link{
+    display: inline;
+    text-decoration: underline;
+}
+
+.subir{
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+    font-family: impact;
+    color: blue;
+}
+/****************************** CONTAINER PRINCIPAL ***********************************************/
+
+#contenedor_principal{
+    background-color: aliceblue;
+    background-image: url("/assets/images/fondo_contenedor2.jpg");
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*margin-left: 230px;
+    padding: 50px;*/
+    margin: auto;
+}
+
+
+/************************ IMAGENES INDEX ********************************************************/
+
+
+#imagen_container{
+    text-align: center;
+    background: no-repeat;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+
+#imagen_space_invaders{
+    text-align: center;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+#imagen_pacman{
+    text-align: center;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+#imagen_mario{
+    text-align: center;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+#imagen_tetris{
+    text-align: center;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+#imagen_retro{
+    text-align: center;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+
+
+
+
+
+/********************************* FOOTER *********************************************************/
+
+.footer{
+    border: 1px solid black;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(231, 248, 246), rgb(91, 179, 230));
+    padding: 30px;
+    margin: auto;
+}
+
+
+/*********************************** CONTENEDOR GALERIA ******************************************/
+/***************************************************************************************************/
+
+#contenedor_galeria{
+    background-image: url(/assets/images/fondo_contenedor3.jpg);
+    background-size: cover;
+}
+
+.galeria_title{
+    text-align: center;
+    text-decoration: underline;
+    font-family: jersey;
+    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 100px;
+}
+
+/*************************************** ENCABEZADO **************************************************/
+/****************************************************************************************************/
+
+
+
+
+/*************************************** GALERIA PRODUCTOS ****************************************/
+/*************************************************************************************************/
+
+#producto1{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 1rem;
+    padding: 40px;
+    justify-content: center;
+}
+
+#producto2{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 1rem;
+    padding: 40px;
+    justify-content: center;
+}
+
+#producto3{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 1rem;
+    padding: 40px;
+    justify-content: center;
+}
+
+#producto4{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 1rem;
+    padding: 40px;
+    justify-content: center;
+}
+
+#producto5{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 1rem;
+    padding: 40px;
+    justify-content: center;
+}
+
+#producto6{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 1rem;
+    padding: 40px;
+    justify-content: center;
+}
+
+img{
+    border-radius: 12px;
+}
+
+span{
+    font-family: jersey;
+    font-size: 30px;
+}
+
+.fin_gale{
+    text-align: center;
+}
+
+
+/**************************************** CONTACTO.HTML *******************************************************/
+/***************************************************************************************************************/
+/***************************************************************************************************************/
+
+
+.ubi_contacto{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+/************************************ PRESUPUESTO html ********************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+
+#contenedor_presupuesto{
+    background-image: url(../assets/images/fondo_contenedor4.png);
+    background-size: cover;
+}
+
+
+/************************************ FORMULARIO  ***************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+
+.p_privacidad{
+    font-size: 20px;
+}
+
+
+.contenedor_form{
+    background-image: url(/assets/images/fondo_contenedor4.png);
+    background-size: auto;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 0;
+    /*border: 1px solid black;*/
+}
+
+.contenedor_form *{
+    box-sizing: border-box;
+}
+
+/************* Estilos de la lista******************************/
+
+.lista_externa{
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lista_externa li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.lista_externa > li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.lista_externa li label, .p_privacidad{
+    font-family: jersey;
+    font-size: 25px;
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+}
+
+.lista_externa >li >label, p_privacidad {
+    flex: 1 0 120px;
+    max-width: 220px;
+}
+
+.lista_externa > li > label + *{
+    flex: 1 0 120px;
+    max-width: 450px;
+}
+
+.lista_externa li .p_privacidad{
+    margin: 0;
+    
+}
+
+.lista_externa li  input:not([type='checkbox']){
+    padding: 15px;
+    border: none;
+}
+
+.buttons {
+   margin-left: auto;
+   padding: 5px 16px; 
+}
+
