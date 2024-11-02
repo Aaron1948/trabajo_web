@@ -28,7 +28,7 @@ html,body{
     justify-content: space-around;
     background: linear-gradient(to bottom, rgb(231, 248, 246), rgb(91, 179, 230));
     text-shadow: 5px 5px rgb(231, 248, 246);
-    font-family: jersey;
+    font-family: "jersey";
 
 }
 
