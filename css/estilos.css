@@ -10,12 +10,12 @@ html,body{
 /*********************************FUENTES*************************************************************/
 
 @font-face{
-    font-family: 'Danfo Regular';
+    font-family: "Danfo Regular";
     src: url("../fonts/Danfo-Regular.ttf");
 }
 
 @font-face{
-    font-family: 'jersey';
+    font-family: "jersey";
     src: url ("../fonts/Jersey15-Regular.ttf");
 }
 
@@ -74,7 +74,7 @@ html,body{
 
 h1{
     font-size: 50px;
-    font-family: 'Danfo Regular';
+    font-family: "Danfo Regular";
     font-weight: 100;
     letter-spacing: 3px;
     margin-right: -190px;
@@ -82,7 +82,7 @@ h1{
 
 h2{
     font-size: 30px;
-    font-family: 'jersey';
+    font-family: "jersey";
     text-align: center;
     text-decoration: underline;
     font-style: italic;
@@ -91,7 +91,7 @@ h2{
 
 h3{
     font-size: 30px;
-    font-family: 'jersey';
+    font-family: "jersey";
     text-align: center;
     word-spacing: 100px;
     text-decoration: underline;
@@ -100,13 +100,13 @@ h3{
 
 p{
     font-size: 1.7rem;
-    font-family: 'jersey';
+    font-family: "jersey";
     padding: 20px;
     text-indent: 40px;
 }
 .foot{
     font-size: 20px;
-    font-family: 'jersey';
+    font-family: "jersey";
     text-transform: uppercase;
     display: inline;
 }
@@ -118,7 +118,7 @@ p{
 
 .italic{
     text-transform: uppercase;
-    font-family: 'jersey';
+    font-family: "jersey";
     font-style: italic;
     text-decoration: underline;
     font-size: larger;
@@ -134,7 +134,7 @@ p{
 .subir{
     font-size: 25px;
     letter-spacing: 0.1rem;
-    font-family: impact;
+    font-family: "impact";
     color: blue;
 }
 /****************************** CONTAINER PRINCIPAL ***********************************************/
@@ -215,14 +215,14 @@ p{
 /***************************************************************************************************/
 
 #contenedor_galeria{
-    background-image: url(../assets/images/fondo_contenedor3.jpg);
+    background-image: url("../assets/images/fondo_contenedor3.jpg");
     background-size: cover;
 }
 
 .galeria_title{
     text-align: center;
     text-decoration: underline;
-    font-family: 'jersey';
+    font-family: "jersey";
     font-size: 35px;
     margin-bottom: 5px;
     padding: 100px;
@@ -290,7 +290,7 @@ img{
 }
 
 span{
-    font-family: 'jersey';
+    font-family: "jersey";
     font-size: 30px;
 }
 
@@ -316,7 +316,7 @@ span{
 /****************************************************************************************************************/
 
 #contenedor_presupuesto{
-    background-image: url(../assets/images/fondo_contenedor4.png);
+    background-image: url("../assets/images/fondo_contenedor4.png");
     background-size: cover;
 }
 
@@ -332,7 +332,7 @@ span{
 
 
 .contenedor_form{
-    background-image: url(../assets/images/fondo_contenedor4.png);
+    background-image: url("../assets/images/fondo_contenedor4.png");
     background-size: auto;
     width: 80%;
     max-width: 1200px;
@@ -365,7 +365,7 @@ span{
 }
 
 .lista_externa li label, .p_privacidad{
-    font-family: 'jersey';
+    font-family: "jersey";
     font-size: 25px;
     padding: 8px;
     font-weight: 300;
