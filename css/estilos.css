@@ -11,12 +11,12 @@ html,body{
 
 @font-face{
     font-family: 'Danfo Regular';
-    src: url(../fonts/Danfo-Regular.ttf);
+    src: url("../fonts/Danfo-Regular.ttf");
 }
 
 @font-face{
     font-family: 'jersey';
-    src: url (../fonts/Jersey15-Regular.ttf);
+    src: url ("../fonts/Jersey15-Regular.ttf");
 }
 
 /********************************* BARRA DE NAVEGACION **********************************************/
